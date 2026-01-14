@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Relógio Dinâmico em JavaScript</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
 </head>
 
-<body onload="carregar()">
+<body>
     <header>
-<h1>Hora Certa</h1>
+        <h1>Hora Certa</h1>
     </header>
-    <section>
-        <div id="msg">
-    Aqui vai aparecer a mensagem ...
-        </div>
-        <div id="foto">
-<img id="imagem" src="manha.jpg" alt="foto do dia">
-        </div>
-    </section>
+
+    <main>
+        <section>
+            <div id="msg"></div>
+
+            <div id="foto">
+                <img 
+                    id="imagem" 
+                    src="manha.jpg" 
+                    alt="Imagem representando o período do dia">
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; powered by: Alcatraz</p>
+        <p>&copy; Desenvolvido por Alcatraz</p>
     </footer>
-<script src="script.js"></script>
 </body>
-
 </html>
